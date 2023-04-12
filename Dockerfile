@@ -21,7 +21,7 @@ RUN apt-get update && \
     export C_INCLUDE_PATH=/usr/include/gdal && \
     apt-get install -y curl 
 
-RUN mkdir /app/data/ && cd /app/data/ && cp ../get_data.sh . && ./get_data.sh 
+# RUN mkdir /app/data/ && cd /app/data/ && cp ../get_data.sh . && ./get_data.sh 
 
 RUN apt-get install -y python3 && \
     apt-get install -y software-properties-common && \
