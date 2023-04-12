@@ -1,4 +1,4 @@
-# Mask Replacement Task
+# Geospatial Task
 
 This repository is being formed to demonstrate the solution to the geopsatial task 
 
