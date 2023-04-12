@@ -31,6 +31,7 @@ From the settings menu of your favorite Python IDE change the interpreter to the
 ## Docker Method
 
 > - Make sure in your operating system docker is installed and running.
+> - This method is going to download the test data to the predefined ```/data``` folder once it is initiated. Therefore initiation might take a condsiderable time depending on the your provider's internet speed. 
 > - For the docker method, a dedicated ubuntu base image has been used. All the necessary libraries and virtual
     environments are being handled via docker image. Required python libraries, necessary local libraries, and the
     virtual
